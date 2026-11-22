@@ -1,0 +1,501 @@
+intervention_id,equipment_id,zone,start_datetime,end_datetime,downtime_minutes,repair_duration_minutes,failure_cause,intervention_type,spare_part_cost
+INT-0001,EQ-010,Injection,2026-04-02 14:52:00,2026-04-02 16:37:00,105,34,Operator Error,Corrective,366.17
+INT-0002,EQ-002,Assembly,2026-03-02 18:18:00,2026-03-02 20:28:00,130,107,Sensor Failure,Corrective,31.94
+INT-0003,EQ-012,Preparation,2026-05-19 05:21:00,2026-05-19 05:48:00,27,73,Preventive Maintenance,Preventive,27.51
+INT-0004,EQ-010,Assembly,2026-06-29 17:15:00,2026-06-29 19:51:00,156,108,Sensor Failure,Corrective,374.87
+INT-0005,EQ-012,Assembly,2026-02-15 15:25:00,2026-02-15 15:39:00,14,71,Preventive Maintenance,Preventive,92.76
+INT-0006,EQ-002,Assembly,2026-07-09 22:58:00,2026-07-10 00:14:00,76,70,Operator Error,Corrective,281.29
+INT-0007,EQ-004,Assembly,2026-06-16 09:49:00,2026-06-16 10:14:00,25,18,Preventive Maintenance,Preventive,14.65
+INT-0008,EQ-004,Preparation,2026-09-26 09:42:00,2026-09-26 13:00:00,198,191,Sensor Failure,Corrective,547.41
+INT-0009,EQ-013,Preparation,2026-07-15 13:21:00,2026-07-15 16:47:00,206,153,Electrical Failure,Corrective,349.27
+INT-0010,EQ-015,Assembly,2026-05-17 15:29:00,2026-05-17 15:58:00,29,83,Preventive Maintenance,Preventive,139.0
+INT-0011,EQ-005,Preparation,2026-02-08 14:31:00,2026-02-08 19:42:00,311,232,Operator Error,Corrective,177.38
+INT-0012,EQ-001,Cutting,2026-10-28 05:15:00,2026-10-28 05:43:00,28,50,Preventive Maintenance,Preventive,120.33
+INT-0013,EQ-015,Injection,2026-03-25 10:31:00,2026-03-25 10:42:00,11,10,Preventive Maintenance,Preventive,44.02
+INT-0014,EQ-010,Preparation,2026-04-25 01:11:00,2026-04-25 04:47:00,216,182,Mechanical Failure,Corrective,371.46
+INT-0015,EQ-007,Electrical Control,2026-07-17 18:46:00,2026-07-17 23:37:00,291,220,Hydraulic Failure,Corrective,211.92
+INT-0016,EQ-015,Injection,2026-07-09 15:49:00,2026-07-09 20:21:00,272,238,Mechanical Failure,Corrective,242.1
+INT-0017,EQ-015,Preparation,2026-03-10 14:46:00,2026-03-10 14:52:00,6,23,Preventive Maintenance,Preventive,6.07
+INT-0018,EQ-014,Electrical Control,2026-06-26 02:58:00,2026-06-26 05:11:00,133,82,Operator Error,Corrective,314.97
+INT-0019,EQ-007,Injection,2026-05-18 16:46:00,2026-05-18 20:24:00,218,190,Hydraulic Failure,Corrective,566.86
+INT-0020,EQ-005,Assembly,2026-10-16 13:15:00,2026-10-16 15:21:00,126,85,Operator Error,Corrective,191.47
+INT-0021,EQ-010,Assembly,2026-05-20 01:15:00,2026-05-20 01:44:00,29,39,Preventive Maintenance,Preventive,80.9
+INT-0022,EQ-013,Cutting,2026-09-26 22:21:00,2026-09-27 01:15:00,174,148,Wear and Tear,Corrective,20.3
+INT-0023,EQ-003,Preparation,2026-01-16 05:59:00,2026-01-16 09:01:00,182,174,Wear and Tear,Corrective,148.82
+INT-0024,EQ-014,Cutting,2026-04-26 03:58:00,2026-04-26 05:47:00,109,78,Mechanical Failure,Corrective,254.22
+INT-0025,EQ-001,Cutting,2026-05-29 19:23:00,2026-05-29 20:22:00,59,58,Sensor Failure,Corrective,194.51
+INT-0026,EQ-001,Injection,2026-06-06 10:41:00,2026-06-06 14:03:00,202,149,Operator Error,Corrective,220.14
+INT-0027,EQ-004,Injection,2026-06-01 12:04:00,2026-06-01 16:44:00,280,191,Wear and Tear,Corrective,160.39
+INT-0028,EQ-006,Injection,2026-10-09 21:04:00,2026-10-09 22:24:00,80,57,Operator Error,Corrective,386.74
+INT-0029,EQ-013,Injection,2026-01-16 17:51:00,2026-01-16 18:18:00,27,82,Preventive Maintenance,Preventive,76.23
+INT-0030,EQ-003,Assembly,2026-08-10 02:34:00,2026-08-10 05:55:00,201,183,Electrical Failure,Corrective,317.01
+INT-0031,EQ-011,Assembly,2026-05-30 04:35:00,2026-05-30 08:14:00,219,180,Electrical Failure,Corrective,505.87
+INT-0032,EQ-007,Assembly,2026-09-18 05:05:00,2026-09-18 08:25:00,200,170,Wear and Tear,Corrective,423.55
+INT-0033,EQ-012,Electrical Control,2026-03-16 15:52:00,2026-03-16 17:12:00,80,79,Mechanical Failure,Corrective,74.0
+INT-0034,EQ-003,Assembly,2026-05-14 16:26:00,2026-05-14 16:34:00,8,18,Preventive Maintenance,Preventive,52.38
+INT-0035,EQ-001,Assembly,2026-09-27 14:15:00,2026-09-27 14:38:00,23,42,Preventive Maintenance,Preventive,127.64
+INT-0036,EQ-014,Preparation,2026-05-05 14:26:00,2026-05-05 14:54:00,28,34,Preventive Maintenance,Preventive,42.59
+INT-0037,EQ-004,Cutting,2026-06-28 14:26:00,2026-06-28 19:13:00,287,227,Mechanical Failure,Corrective,122.04
+INT-0038,EQ-001,Assembly,2026-04-04 18:59:00,2026-04-04 21:33:00,154,147,Sensor Failure,Corrective,401.42
+INT-0039,EQ-003,Injection,2026-07-15 19:34:00,2026-07-15 20:44:00,70,41,Wear and Tear,Corrective,587.76
+INT-0040,EQ-013,Injection,2026-08-08 13:49:00,2026-08-08 16:12:00,143,116,Mechanical Failure,Corrective,133.24
+INT-0041,EQ-014,Electrical Control,2026-09-16 04:00:00,2026-09-16 05:19:00,79,36,Hydraulic Failure,Corrective,292.57
+INT-0042,EQ-014,Electrical Control,2026-04-24 16:27:00,2026-04-24 16:50:00,23,46,Preventive Maintenance,Preventive,49.61
+INT-0043,EQ-002,Cutting,2026-03-28 02:59:00,2026-03-28 07:53:00,294,210,Mechanical Failure,Corrective,203.81
+INT-0044,EQ-015,Preparation,2026-10-17 02:29:00,2026-10-17 04:52:00,143,77,Wear and Tear,Corrective,76.36
+INT-0045,EQ-009,Injection,2026-01-08 10:49:00,2026-01-08 14:47:00,238,149,Mechanical Failure,Corrective,512.23
+INT-0046,EQ-009,Electrical Control,2026-09-13 07:34:00,2026-09-13 12:15:00,281,240,Electrical Failure,Corrective,489.87
+INT-0047,EQ-008,Assembly,2026-06-22 17:10:00,2026-06-22 19:01:00,111,76,Operator Error,Corrective,132.68
+INT-0048,EQ-003,Cutting,2026-03-28 03:26:00,2026-03-28 03:48:00,22,75,Preventive Maintenance,Preventive,100.8
+INT-0049,EQ-001,Assembly,2026-03-29 14:21:00,2026-03-29 17:06:00,165,144,Electrical Failure,Corrective,519.03
+INT-0050,EQ-005,Assembly,2026-05-08 19:58:00,2026-05-08 22:10:00,132,73,Operator Error,Corrective,322.9
+INT-0051,EQ-004,Injection,2026-09-19 16:36:00,2026-09-19 19:45:00,189,122,Wear and Tear,Corrective,49.98
+INT-0052,EQ-014,Injection,2026-02-21 01:23:00,2026-02-21 04:18:00,175,163,Electrical Failure,Corrective,319.45
+INT-0053,EQ-010,Electrical Control,2026-08-28 12:14:00,2026-08-28 12:41:00,27,28,Preventive Maintenance,Preventive,111.61
+INT-0054,EQ-010,Preparation,2026-07-06 04:13:00,2026-07-06 05:03:00,50,42,Hydraulic Failure,Corrective,257.19
+INT-0055,EQ-005,Cutting,2026-05-04 02:07:00,2026-05-04 05:19:00,192,145,Mechanical Failure,Corrective,402.91
+INT-0056,EQ-007,Injection,2026-01-21 09:35:00,2026-01-21 09:39:00,4,72,Preventive Maintenance,Preventive,91.76
+INT-0057,EQ-012,Electrical Control,2026-02-16 16:15:00,2026-02-16 20:58:00,283,198,Mechanical Failure,Corrective,218.29
+INT-0058,EQ-010,Electrical Control,2026-02-05 14:53:00,2026-02-05 19:30:00,277,209,Hydraulic Failure,Corrective,29.95
+INT-0059,EQ-005,Assembly,2026-08-10 07:57:00,2026-08-10 10:19:00,142,120,Electrical Failure,Corrective,377.19
+INT-0060,EQ-008,Electrical Control,2026-10-28 22:54:00,2026-10-29 01:49:00,175,157,Electrical Failure,Corrective,310.6
+INT-0061,EQ-011,Assembly,2026-01-20 05:03:00,2026-01-20 07:05:00,122,43,Electrical Failure,Corrective,35.38
+INT-0062,EQ-011,Electrical Control,2026-01-09 06:58:00,2026-01-09 09:53:00,175,143,Mechanical Failure,Corrective,490.5
+INT-0063,EQ-013,Assembly,2026-01-27 14:24:00,2026-01-27 18:44:00,260,187,Sensor Failure,Corrective,133.56
+INT-0064,EQ-013,Preparation,2026-04-10 11:13:00,2026-04-10 13:33:00,140,54,Mechanical Failure,Corrective,400.32
+INT-0065,EQ-002,Electrical Control,2026-05-25 08:29:00,2026-05-25 11:36:00,187,181,Hydraulic Failure,Corrective,421.88
+INT-0066,EQ-009,Assembly,2026-01-06 05:43:00,2026-01-06 06:07:00,24,45,Preventive Maintenance,Preventive,120.52
+INT-0067,EQ-004,Preparation,2026-01-14 02:48:00,2026-01-14 06:42:00,234,171,Sensor Failure,Corrective,594.49
+INT-0068,EQ-012,Cutting,2026-10-25 07:27:00,2026-10-25 10:40:00,193,171,Wear and Tear,Corrective,345.88
+INT-0069,EQ-004,Cutting,2026-05-02 01:58:00,2026-05-02 06:23:00,265,236,Mechanical Failure,Corrective,329.91
+INT-0070,EQ-009,Injection,2026-02-15 23:54:00,2026-02-16 01:20:00,86,38,Hydraulic Failure,Corrective,26.29
+INT-0071,EQ-015,Electrical Control,2026-10-25 13:26:00,2026-10-25 15:30:00,124,47,Hydraulic Failure,Corrective,352.59
+INT-0072,EQ-005,Cutting,2026-03-13 09:15:00,2026-03-13 10:50:00,95,44,Sensor Failure,Corrective,143.38
+INT-0073,EQ-005,Injection,2026-03-04 08:20:00,2026-03-04 10:18:00,118,61,Wear and Tear,Corrective,338.73
+INT-0074,EQ-009,Preparation,2026-09-11 07:38:00,2026-09-11 07:55:00,17,84,Preventive Maintenance,Preventive,145.3
+INT-0075,EQ-010,Cutting,2026-05-22 10:24:00,2026-05-22 10:37:00,13,16,Preventive Maintenance,Preventive,105.15
+INT-0076,EQ-006,Injection,2026-07-15 06:49:00,2026-07-15 06:53:00,4,75,Preventive Maintenance,Preventive,77.0
+INT-0077,EQ-007,Cutting,2026-10-30 11:24:00,2026-10-30 14:13:00,169,84,Hydraulic Failure,Corrective,157.28
+INT-0078,EQ-007,Injection,2026-04-26 23:01:00,2026-04-27 02:17:00,196,178,Operator Error,Corrective,239.23
+INT-0079,EQ-012,Preparation,2026-06-06 02:26:00,2026-06-06 04:30:00,124,58,Operator Error,Corrective,26.59
+INT-0080,EQ-012,Cutting,2026-10-10 04:12:00,2026-10-10 07:16:00,184,146,Mechanical Failure,Corrective,415.0
+INT-0081,EQ-006,Preparation,2026-07-21 12:00:00,2026-07-21 15:47:00,227,172,Mechanical Failure,Corrective,149.69
+INT-0082,EQ-005,Injection,2026-04-01 01:35:00,2026-04-01 05:47:00,252,192,Operator Error,Corrective,45.17
+INT-0083,EQ-015,Cutting,2026-06-30 09:07:00,2026-06-30 09:26:00,19,28,Preventive Maintenance,Preventive,11.32
+INT-0084,EQ-003,Cutting,2026-06-30 00:14:00,2026-06-30 03:12:00,178,178,Operator Error,Corrective,424.22
+INT-0085,EQ-008,Assembly,2026-09-09 06:01:00,2026-09-09 06:08:00,7,25,Preventive Maintenance,Preventive,59.18
+INT-0086,EQ-012,Preparation,2026-01-07 11:37:00,2026-01-07 14:03:00,146,111,Electrical Failure,Corrective,245.2
+INT-0087,EQ-009,Cutting,2026-03-30 04:56:00,2026-03-30 08:53:00,237,211,Wear and Tear,Corrective,38.74
+INT-0088,EQ-006,Preparation,2026-04-26 16:59:00,2026-04-26 20:07:00,188,176,Wear and Tear,Corrective,64.2
+INT-0089,EQ-002,Injection,2026-02-05 09:50:00,2026-02-05 13:47:00,237,172,Electrical Failure,Corrective,560.98
+INT-0090,EQ-001,Injection,2026-01-01 16:55:00,2026-01-01 18:51:00,116,52,Electrical Failure,Corrective,592.62
+INT-0091,EQ-013,Cutting,2026-04-04 21:50:00,2026-04-05 03:11:00,321,236,Sensor Failure,Corrective,508.43
+INT-0092,EQ-005,Electrical Control,2026-03-15 07:30:00,2026-03-15 10:18:00,168,148,Wear and Tear,Corrective,421.19
+INT-0093,EQ-010,Preparation,2026-02-05 03:32:00,2026-02-05 03:36:00,4,32,Preventive Maintenance,Preventive,108.92
+INT-0094,EQ-004,Cutting,2026-09-24 06:32:00,2026-09-24 08:41:00,129,129,Sensor Failure,Corrective,179.34
+INT-0095,EQ-006,Injection,2026-09-15 06:23:00,2026-09-15 08:27:00,124,53,Electrical Failure,Corrective,308.94
+INT-0096,EQ-014,Injection,2026-01-26 18:51:00,2026-01-26 23:16:00,265,212,Hydraulic Failure,Corrective,345.34
+INT-0097,EQ-002,Injection,2026-07-15 09:02:00,2026-07-15 10:30:00,88,66,Operator Error,Corrective,379.78
+INT-0098,EQ-014,Injection,2026-02-26 11:17:00,2026-02-26 15:25:00,248,211,Electrical Failure,Corrective,362.15
+INT-0099,EQ-012,Preparation,2026-08-23 15:29:00,2026-08-23 17:17:00,108,71,Mechanical Failure,Corrective,474.52
+INT-0100,EQ-001,Preparation,2026-06-22 04:20:00,2026-06-22 04:23:00,3,38,Preventive Maintenance,Preventive,68.9
+INT-0101,EQ-002,Electrical Control,2026-08-09 07:47:00,2026-08-09 07:48:00,1,78,Preventive Maintenance,Preventive,93.12
+INT-0102,EQ-008,Assembly,2026-06-29 05:30:00,2026-06-29 09:34:00,244,222,Sensor Failure,Corrective,100.52
+INT-0103,EQ-002,Electrical Control,2026-09-15 04:39:00,2026-09-15 06:29:00,110,44,Sensor Failure,Corrective,318.84
+INT-0104,EQ-013,Electrical Control,2026-10-17 16:50:00,2026-10-17 17:34:00,44,40,Electrical Failure,Corrective,181.58
+INT-0105,EQ-014,Preparation,2026-09-12 17:44:00,2026-09-12 19:44:00,120,31,Wear and Tear,Corrective,231.28
+INT-0106,EQ-008,Injection,2026-01-17 09:44:00,2026-01-17 11:15:00,91,45,Mechanical Failure,Corrective,418.92
+INT-0107,EQ-008,Cutting,2026-05-08 16:28:00,2026-05-08 16:53:00,25,90,Preventive Maintenance,Preventive,130.25
+INT-0108,EQ-012,Preparation,2026-06-01 22:43:00,2026-06-02 03:15:00,272,226,Wear and Tear,Corrective,156.95
+INT-0109,EQ-015,Injection,2026-07-05 06:05:00,2026-07-05 10:26:00,261,206,Sensor Failure,Corrective,433.74
+INT-0110,EQ-012,Preparation,2026-03-23 23:13:00,2026-03-24 00:24:00,71,57,Mechanical Failure,Corrective,447.7
+INT-0111,EQ-001,Electrical Control,2026-02-05 00:48:00,2026-02-05 04:02:00,194,105,Wear and Tear,Corrective,89.46
+INT-0112,EQ-015,Assembly,2026-03-17 01:39:00,2026-03-17 05:22:00,223,157,Mechanical Failure,Corrective,309.1
+INT-0113,EQ-010,Cutting,2026-05-27 12:17:00,2026-05-27 14:34:00,137,130,Mechanical Failure,Corrective,347.39
+INT-0114,EQ-005,Cutting,2026-05-09 21:45:00,2026-05-10 00:06:00,141,83,Sensor Failure,Corrective,592.18
+INT-0115,EQ-004,Injection,2026-10-20 00:21:00,2026-10-20 02:10:00,109,40,Wear and Tear,Corrective,162.66
+INT-0116,EQ-003,Electrical Control,2026-08-23 21:49:00,2026-08-24 00:06:00,137,114,Mechanical Failure,Corrective,66.54
+INT-0117,EQ-011,Assembly,2026-10-27 12:46:00,2026-10-27 12:47:00,1,15,Preventive Maintenance,Preventive,86.4
+INT-0118,EQ-015,Injection,2026-10-01 03:33:00,2026-10-01 06:35:00,182,132,Wear and Tear,Corrective,559.04
+INT-0119,EQ-006,Assembly,2026-08-03 08:18:00,2026-08-03 12:13:00,235,192,Operator Error,Corrective,128.49
+INT-0120,EQ-006,Electrical Control,2026-05-06 07:28:00,2026-05-06 08:18:00,50,39,Mechanical Failure,Corrective,374.16
+INT-0121,EQ-006,Preparation,2026-01-23 09:34:00,2026-01-23 12:49:00,195,119,Sensor Failure,Corrective,364.45
+INT-0122,EQ-008,Preparation,2026-02-27 01:40:00,2026-02-27 04:39:00,179,170,Hydraulic Failure,Corrective,137.0
+INT-0123,EQ-015,Injection,2026-04-02 22:54:00,2026-04-03 02:06:00,192,120,Mechanical Failure,Corrective,87.68
+INT-0124,EQ-014,Electrical Control,2026-09-13 20:32:00,2026-09-13 23:01:00,149,88,Hydraulic Failure,Corrective,579.72
+INT-0125,EQ-006,Assembly,2026-05-17 11:13:00,2026-05-17 13:22:00,129,95,Mechanical Failure,Corrective,449.85
+INT-0126,EQ-012,Injection,2026-01-06 13:27:00,2026-01-06 13:35:00,8,20,Preventive Maintenance,Preventive,112.58
+INT-0127,EQ-009,Electrical Control,2026-10-14 10:58:00,2026-10-14 14:37:00,219,142,Electrical Failure,Corrective,546.56
+INT-0128,EQ-013,Cutting,2026-08-01 02:47:00,2026-08-01 04:56:00,129,91,Wear and Tear,Corrective,541.81
+INT-0129,EQ-002,Electrical Control,2026-04-14 22:06:00,2026-04-15 01:14:00,188,172,Mechanical Failure,Corrective,247.06
+INT-0130,EQ-003,Injection,2026-10-03 20:34:00,2026-10-03 20:52:00,18,48,Preventive Maintenance,Preventive,64.73
+INT-0131,EQ-007,Injection,2026-08-27 05:34:00,2026-08-27 08:12:00,158,130,Mechanical Failure,Corrective,329.41
+INT-0132,EQ-011,Cutting,2026-07-09 12:53:00,2026-07-09 12:53:00,0,66,Preventive Maintenance,Preventive,106.05
+INT-0133,EQ-001,Electrical Control,2026-07-15 06:13:00,2026-07-15 07:47:00,94,85,Operator Error,Corrective,528.52
+INT-0134,EQ-013,Electrical Control,2026-02-19 22:27:00,2026-02-20 02:02:00,215,128,Hydraulic Failure,Corrective,250.43
+INT-0135,EQ-003,Injection,2026-02-28 12:51:00,2026-02-28 15:10:00,139,95,Electrical Failure,Corrective,27.08
+INT-0136,EQ-010,Preparation,2026-09-26 15:38:00,2026-09-26 17:32:00,114,46,Hydraulic Failure,Corrective,125.33
+INT-0137,EQ-009,Cutting,2026-04-03 17:15:00,2026-04-03 17:22:00,7,22,Preventive Maintenance,Preventive,75.88
+INT-0138,EQ-004,Electrical Control,2026-06-09 20:43:00,2026-06-10 01:08:00,265,190,Hydraulic Failure,Corrective,347.78
+INT-0139,EQ-003,Electrical Control,2026-09-12 10:47:00,2026-09-12 11:12:00,25,40,Preventive Maintenance,Preventive,10.34
+INT-0140,EQ-005,Preparation,2026-04-04 15:49:00,2026-04-04 16:41:00,52,30,Mechanical Failure,Corrective,85.68
+INT-0141,EQ-007,Injection,2026-03-28 04:05:00,2026-03-28 04:05:00,0,66,Preventive Maintenance,Preventive,130.48
+INT-0142,EQ-004,Cutting,2026-08-18 10:28:00,2026-08-18 14:54:00,266,194,Operator Error,Corrective,214.41
+INT-0143,EQ-011,Preparation,2026-01-10 04:24:00,2026-01-10 06:20:00,116,54,Hydraulic Failure,Corrective,331.69
+INT-0144,EQ-011,Assembly,2026-01-07 00:26:00,2026-01-07 04:57:00,271,181,Mechanical Failure,Corrective,360.5
+INT-0145,EQ-006,Electrical Control,2026-06-21 12:05:00,2026-06-21 12:29:00,24,33,Preventive Maintenance,Preventive,74.76
+INT-0146,EQ-010,Assembly,2026-09-24 01:52:00,2026-09-24 02:22:00,30,38,Preventive Maintenance,Preventive,41.64
+INT-0147,EQ-004,Assembly,2026-04-21 06:08:00,2026-04-21 11:06:00,298,218,Hydraulic Failure,Corrective,286.21
+INT-0148,EQ-014,Injection,2026-02-13 15:03:00,2026-02-13 17:21:00,138,68,Mechanical Failure,Corrective,199.76
+INT-0149,EQ-013,Injection,2026-03-06 22:21:00,2026-03-06 23:41:00,80,51,Operator Error,Corrective,382.49
+INT-0150,EQ-012,Cutting,2026-02-14 11:57:00,2026-02-14 14:57:00,180,134,Electrical Failure,Corrective,324.15
+INT-0151,EQ-013,Injection,2026-07-28 19:49:00,2026-07-29 00:09:00,260,198,Hydraulic Failure,Corrective,125.52
+INT-0152,EQ-007,Assembly,2026-10-01 00:50:00,2026-10-01 03:32:00,162,129,Hydraulic Failure,Corrective,484.43
+INT-0153,EQ-003,Injection,2026-05-31 07:34:00,2026-05-31 07:34:00,0,17,Preventive Maintenance,Preventive,82.76
+INT-0154,EQ-015,Preparation,2026-08-22 11:19:00,2026-08-22 13:38:00,139,73,Sensor Failure,Corrective,398.59
+INT-0155,EQ-004,Assembly,2026-08-31 13:11:00,2026-08-31 13:34:00,23,87,Preventive Maintenance,Preventive,121.03
+INT-0156,EQ-007,Cutting,2026-03-26 05:40:00,2026-03-26 09:15:00,215,161,Electrical Failure,Corrective,27.54
+INT-0157,EQ-002,Preparation,2026-05-09 02:26:00,2026-05-09 04:55:00,149,131,Hydraulic Failure,Corrective,392.9
+INT-0158,EQ-002,Injection,2026-01-17 03:16:00,2026-01-17 03:26:00,10,29,Preventive Maintenance,Preventive,38.91
+INT-0159,EQ-009,Preparation,2026-09-20 18:27:00,2026-09-20 19:27:00,60,24,Wear and Tear,Corrective,468.82
+INT-0160,EQ-008,Injection,2026-03-25 19:14:00,2026-03-25 19:30:00,16,33,Preventive Maintenance,Preventive,130.27
+INT-0161,EQ-014,Cutting,2026-05-31 20:15:00,2026-05-31 20:32:00,17,90,Preventive Maintenance,Preventive,3.37
+INT-0162,EQ-014,Assembly,2026-06-15 03:24:00,2026-06-15 05:20:00,116,44,Wear and Tear,Corrective,394.13
+INT-0163,EQ-002,Electrical Control,2026-06-27 19:08:00,2026-06-27 22:42:00,214,128,Operator Error,Corrective,30.67
+INT-0164,EQ-009,Preparation,2026-05-11 20:56:00,2026-05-11 20:57:00,1,47,Preventive Maintenance,Preventive,83.13
+INT-0165,EQ-015,Injection,2026-02-03 20:36:00,2026-02-04 00:06:00,210,125,Operator Error,Corrective,172.94
+INT-0166,EQ-010,Electrical Control,2026-06-08 01:15:00,2026-06-08 03:37:00,142,72,Electrical Failure,Corrective,550.36
+INT-0167,EQ-001,Injection,2026-04-27 07:09:00,2026-04-27 08:33:00,84,83,Hydraulic Failure,Corrective,576.0
+INT-0168,EQ-001,Injection,2026-02-06 23:56:00,2026-02-07 02:54:00,178,168,Sensor Failure,Corrective,226.29
+INT-0169,EQ-008,Cutting,2026-09-20 14:45:00,2026-09-20 17:36:00,171,117,Wear and Tear,Corrective,98.3
+INT-0170,EQ-001,Injection,2026-05-23 17:50:00,2026-05-23 21:59:00,249,167,Sensor Failure,Corrective,508.09
+INT-0171,EQ-009,Cutting,2026-02-15 20:17:00,2026-02-16 00:22:00,245,220,Electrical Failure,Corrective,81.83
+INT-0172,EQ-003,Preparation,2026-10-01 02:36:00,2026-10-01 06:27:00,231,190,Mechanical Failure,Corrective,162.91
+INT-0173,EQ-011,Injection,2026-05-24 05:38:00,2026-05-24 05:56:00,18,21,Preventive Maintenance,Preventive,47.19
+INT-0174,EQ-015,Assembly,2026-10-16 00:16:00,2026-10-16 00:40:00,24,83,Preventive Maintenance,Preventive,66.9
+INT-0175,EQ-005,Cutting,2026-03-04 17:27:00,2026-03-04 19:16:00,109,102,Operator Error,Corrective,460.24
+INT-0176,EQ-013,Preparation,2026-06-24 09:47:00,2026-06-24 10:13:00,26,24,Preventive Maintenance,Preventive,148.15
+INT-0177,EQ-005,Preparation,2026-01-27 03:21:00,2026-01-27 05:06:00,105,35,Mechanical Failure,Corrective,124.73
+INT-0178,EQ-008,Preparation,2026-04-27 20:30:00,2026-04-27 22:52:00,142,136,Mechanical Failure,Corrective,131.71
+INT-0179,EQ-010,Cutting,2026-06-10 07:56:00,2026-06-10 10:15:00,139,101,Sensor Failure,Corrective,205.08
+INT-0180,EQ-005,Injection,2026-08-07 09:59:00,2026-08-07 13:05:00,186,127,Operator Error,Corrective,64.63
+INT-0181,EQ-006,Cutting,2026-04-16 08:54:00,2026-04-16 13:26:00,272,234,Mechanical Failure,Corrective,332.27
+INT-0182,EQ-007,Injection,2026-03-21 01:04:00,2026-03-21 02:20:00,76,35,Hydraulic Failure,Corrective,155.12
+INT-0183,EQ-003,Injection,2026-03-29 01:01:00,2026-03-29 01:13:00,12,22,Preventive Maintenance,Preventive,57.59
+INT-0184,EQ-014,Electrical Control,2026-01-12 08:51:00,2026-01-12 09:20:00,29,38,Preventive Maintenance,Preventive,13.28
+INT-0185,EQ-007,Assembly,2026-07-24 23:43:00,2026-07-25 03:15:00,212,203,Wear and Tear,Corrective,262.3
+INT-0186,EQ-014,Preparation,2026-01-23 17:33:00,2026-01-23 20:51:00,198,196,Operator Error,Corrective,225.68
+INT-0187,EQ-015,Cutting,2026-09-18 05:17:00,2026-09-18 06:37:00,80,56,Mechanical Failure,Corrective,548.0
+INT-0188,EQ-005,Electrical Control,2026-03-27 05:44:00,2026-03-27 08:38:00,174,107,Hydraulic Failure,Corrective,574.72
+INT-0189,EQ-014,Electrical Control,2026-06-08 20:11:00,2026-06-09 00:26:00,255,217,Wear and Tear,Corrective,368.46
+INT-0190,EQ-004,Electrical Control,2026-07-18 21:26:00,2026-07-18 21:29:00,3,61,Preventive Maintenance,Preventive,34.75
+INT-0191,EQ-010,Cutting,2026-07-31 02:28:00,2026-07-31 05:50:00,202,129,Sensor Failure,Corrective,122.39
+INT-0192,EQ-015,Cutting,2026-05-10 14:26:00,2026-05-10 16:50:00,144,139,Operator Error,Corrective,53.55
+INT-0193,EQ-001,Injection,2026-04-14 17:29:00,2026-04-14 19:23:00,114,80,Electrical Failure,Corrective,304.89
+INT-0194,EQ-009,Cutting,2026-08-13 16:37:00,2026-08-13 17:00:00,23,22,Preventive Maintenance,Preventive,112.18
+INT-0195,EQ-011,Assembly,2026-02-27 20:20:00,2026-02-27 20:28:00,8,20,Preventive Maintenance,Preventive,58.68
+INT-0196,EQ-008,Cutting,2026-07-14 06:26:00,2026-07-14 10:33:00,247,172,Electrical Failure,Corrective,489.52
+INT-0197,EQ-005,Preparation,2026-08-05 20:10:00,2026-08-06 01:23:00,313,235,Wear and Tear,Corrective,170.66
+INT-0198,EQ-013,Cutting,2026-09-14 00:36:00,2026-09-14 02:42:00,126,79,Operator Error,Corrective,538.8
+INT-0199,EQ-002,Injection,2026-10-07 16:12:00,2026-10-07 18:30:00,138,81,Sensor Failure,Corrective,221.73
+INT-0200,EQ-008,Assembly,2026-03-11 04:16:00,2026-03-11 04:39:00,23,15,Preventive Maintenance,Preventive,119.61
+INT-0201,EQ-004,Injection,2026-03-15 01:48:00,2026-03-15 02:12:00,24,54,Preventive Maintenance,Preventive,139.51
+INT-0202,EQ-009,Injection,2026-04-17 16:06:00,2026-04-17 16:16:00,10,14,Preventive Maintenance,Preventive,144.2
+INT-0203,EQ-007,Preparation,2026-02-24 08:09:00,2026-02-24 08:19:00,10,19,Preventive Maintenance,Preventive,34.29
+INT-0204,EQ-013,Injection,2026-05-12 06:04:00,2026-05-12 06:10:00,6,21,Preventive Maintenance,Preventive,28.97
+INT-0205,EQ-006,Injection,2026-10-25 06:08:00,2026-10-25 06:31:00,23,69,Preventive Maintenance,Preventive,122.8
+INT-0206,EQ-014,Electrical Control,2026-01-21 07:37:00,2026-01-21 08:04:00,27,72,Preventive Maintenance,Preventive,94.89
+INT-0207,EQ-012,Cutting,2026-10-10 10:43:00,2026-10-10 14:37:00,234,167,Sensor Failure,Corrective,116.5
+INT-0208,EQ-014,Electrical Control,2026-06-22 13:52:00,2026-06-22 16:02:00,130,41,Sensor Failure,Corrective,514.4
+INT-0209,EQ-006,Injection,2026-08-31 15:30:00,2026-08-31 20:04:00,274,199,Operator Error,Corrective,32.83
+INT-0210,EQ-001,Injection,2026-06-07 20:06:00,2026-06-07 21:36:00,90,45,Electrical Failure,Corrective,598.33
+INT-0211,EQ-002,Assembly,2026-05-28 22:30:00,2026-05-28 23:32:00,62,34,Operator Error,Corrective,193.06
+INT-0212,EQ-012,Electrical Control,2026-07-17 08:26:00,2026-07-17 13:20:00,294,214,Wear and Tear,Corrective,107.61
+INT-0213,EQ-009,Electrical Control,2026-05-28 21:03:00,2026-05-28 21:22:00,19,68,Preventive Maintenance,Preventive,59.64
+INT-0214,EQ-002,Electrical Control,2026-04-07 04:16:00,2026-04-07 04:43:00,27,67,Preventive Maintenance,Preventive,108.66
+INT-0215,EQ-012,Injection,2026-08-30 01:20:00,2026-08-30 02:27:00,67,44,Hydraulic Failure,Corrective,346.4
+INT-0216,EQ-015,Injection,2026-10-28 09:17:00,2026-10-28 09:45:00,28,26,Preventive Maintenance,Preventive,116.49
+INT-0217,EQ-012,Electrical Control,2026-04-23 08:19:00,2026-04-23 08:21:00,2,80,Preventive Maintenance,Preventive,119.52
+INT-0218,EQ-014,Cutting,2026-08-07 05:22:00,2026-08-07 05:35:00,13,29,Preventive Maintenance,Preventive,69.31
+INT-0219,EQ-006,Electrical Control,2026-01-24 23:31:00,2026-01-25 00:36:00,65,28,Mechanical Failure,Corrective,113.28
+INT-0220,EQ-005,Preparation,2026-08-08 23:19:00,2026-08-09 01:00:00,101,91,Operator Error,Corrective,106.76
+INT-0221,EQ-001,Assembly,2026-04-22 04:01:00,2026-04-22 06:47:00,166,129,Sensor Failure,Corrective,423.09
+INT-0222,EQ-009,Cutting,2026-07-22 22:31:00,2026-07-22 22:52:00,21,20,Preventive Maintenance,Preventive,112.37
+INT-0223,EQ-004,Cutting,2026-04-28 19:11:00,2026-04-29 00:16:00,305,226,Wear and Tear,Corrective,378.53
+INT-0224,EQ-013,Cutting,2026-01-16 13:51:00,2026-01-16 15:48:00,117,116,Mechanical Failure,Corrective,70.96
+INT-0225,EQ-007,Preparation,2026-02-09 13:45:00,2026-02-09 13:51:00,6,31,Preventive Maintenance,Preventive,19.91
+INT-0226,EQ-013,Injection,2026-05-28 21:37:00,2026-05-29 01:02:00,205,162,Mechanical Failure,Corrective,571.9
+INT-0227,EQ-009,Preparation,2026-05-30 08:08:00,2026-05-30 08:16:00,8,15,Preventive Maintenance,Preventive,7.8
+INT-0228,EQ-014,Injection,2026-09-11 00:39:00,2026-09-11 01:06:00,27,59,Preventive Maintenance,Preventive,120.26
+INT-0229,EQ-006,Preparation,2026-06-09 14:34:00,2026-06-09 17:36:00,182,103,Hydraulic Failure,Corrective,366.54
+INT-0230,EQ-012,Assembly,2026-04-16 19:20:00,2026-04-16 23:00:00,220,207,Sensor Failure,Corrective,440.4
+INT-0231,EQ-008,Electrical Control,2026-08-26 00:12:00,2026-08-26 02:51:00,159,141,Wear and Tear,Corrective,215.4
+INT-0232,EQ-006,Preparation,2026-02-18 20:06:00,2026-02-18 20:24:00,18,41,Preventive Maintenance,Preventive,24.25
+INT-0233,EQ-012,Preparation,2026-04-28 00:04:00,2026-04-28 02:54:00,170,115,Mechanical Failure,Corrective,306.1
+INT-0234,EQ-001,Electrical Control,2026-06-13 14:52:00,2026-06-13 19:15:00,263,201,Mechanical Failure,Corrective,507.46
+INT-0235,EQ-012,Assembly,2026-04-02 16:28:00,2026-04-02 17:30:00,62,43,Operator Error,Corrective,220.64
+INT-0236,EQ-005,Preparation,2026-09-19 08:49:00,2026-09-19 12:55:00,246,196,Mechanical Failure,Corrective,274.4
+INT-0237,EQ-010,Injection,2026-01-31 06:25:00,2026-01-31 08:36:00,131,98,Hydraulic Failure,Corrective,264.6
+INT-0238,EQ-008,Electrical Control,2026-01-30 07:49:00,2026-01-30 10:24:00,155,144,Sensor Failure,Corrective,381.32
+INT-0239,EQ-007,Preparation,2026-10-20 03:46:00,2026-10-20 04:38:00,52,45,Hydraulic Failure,Corrective,547.24
+INT-0240,EQ-009,Assembly,2026-09-01 10:21:00,2026-09-01 11:18:00,57,21,Operator Error,Corrective,60.1
+INT-0241,EQ-001,Injection,2026-03-10 06:37:00,2026-03-10 11:56:00,319,236,Electrical Failure,Corrective,75.25
+INT-0242,EQ-008,Assembly,2026-08-18 00:33:00,2026-08-18 03:39:00,186,182,Mechanical Failure,Corrective,468.61
+INT-0243,EQ-006,Preparation,2026-06-11 15:10:00,2026-06-11 15:20:00,10,40,Preventive Maintenance,Preventive,132.56
+INT-0244,EQ-011,Assembly,2026-08-24 06:03:00,2026-08-24 07:56:00,113,113,Operator Error,Corrective,164.25
+INT-0245,EQ-005,Electrical Control,2026-05-29 07:27:00,2026-05-29 11:07:00,220,137,Hydraulic Failure,Corrective,41.27
+INT-0246,EQ-006,Assembly,2026-06-05 05:36:00,2026-06-05 08:38:00,182,139,Hydraulic Failure,Corrective,521.25
+INT-0247,EQ-005,Assembly,2026-01-25 02:27:00,2026-01-25 05:57:00,210,133,Electrical Failure,Corrective,91.32
+INT-0248,EQ-005,Cutting,2026-04-29 03:02:00,2026-04-29 05:05:00,123,54,Operator Error,Corrective,561.65
+INT-0249,EQ-011,Injection,2026-07-25 15:41:00,2026-07-25 16:31:00,50,31,Operator Error,Corrective,298.34
+INT-0250,EQ-008,Injection,2026-02-01 10:32:00,2026-02-01 12:09:00,97,69,Mechanical Failure,Corrective,356.47
+INT-0251,EQ-002,Preparation,2026-02-24 23:01:00,2026-02-25 01:06:00,125,103,Wear and Tear,Corrective,198.6
+INT-0252,EQ-005,Preparation,2026-03-26 15:03:00,2026-03-26 16:47:00,104,104,Operator Error,Corrective,277.38
+INT-0253,EQ-001,Preparation,2026-04-12 20:09:00,2026-04-13 00:32:00,263,190,Wear and Tear,Corrective,308.36
+INT-0254,EQ-014,Assembly,2026-06-08 09:11:00,2026-06-08 09:37:00,26,85,Preventive Maintenance,Preventive,139.64
+INT-0255,EQ-005,Cutting,2026-10-23 05:06:00,2026-10-23 07:15:00,129,50,Wear and Tear,Corrective,248.44
+INT-0256,EQ-001,Cutting,2026-01-26 00:59:00,2026-01-26 05:35:00,276,213,Wear and Tear,Corrective,204.5
+INT-0257,EQ-004,Preparation,2026-04-20 22:00:00,2026-04-20 22:30:00,30,86,Preventive Maintenance,Preventive,110.77
+INT-0258,EQ-013,Cutting,2026-01-21 06:05:00,2026-01-21 08:54:00,169,151,Wear and Tear,Corrective,542.8
+INT-0259,EQ-009,Electrical Control,2026-01-13 08:12:00,2026-01-13 09:46:00,94,94,Wear and Tear,Corrective,335.8
+INT-0260,EQ-013,Cutting,2026-01-20 06:03:00,2026-01-20 09:55:00,232,218,Operator Error,Corrective,240.64
+INT-0261,EQ-003,Preparation,2026-04-08 05:19:00,2026-04-08 06:56:00,97,54,Wear and Tear,Corrective,62.45
+INT-0262,EQ-002,Assembly,2026-08-24 22:00:00,2026-08-24 22:20:00,20,12,Preventive Maintenance,Preventive,129.5
+INT-0263,EQ-005,Assembly,2026-07-02 20:41:00,2026-07-02 23:44:00,183,172,Operator Error,Corrective,251.32
+INT-0264,EQ-012,Injection,2026-08-22 06:34:00,2026-08-22 11:15:00,281,195,Wear and Tear,Corrective,453.19
+INT-0265,EQ-009,Assembly,2026-01-18 01:56:00,2026-01-18 06:05:00,249,170,Operator Error,Corrective,540.86
+INT-0266,EQ-003,Preparation,2026-09-16 16:14:00,2026-09-16 16:34:00,20,77,Preventive Maintenance,Preventive,71.88
+INT-0267,EQ-015,Assembly,2026-05-06 19:47:00,2026-05-06 22:54:00,187,136,Wear and Tear,Corrective,198.23
+INT-0268,EQ-001,Electrical Control,2026-03-26 17:19:00,2026-03-26 19:59:00,160,125,Wear and Tear,Corrective,435.37
+INT-0269,EQ-013,Cutting,2026-06-28 17:28:00,2026-06-28 20:35:00,187,113,Hydraulic Failure,Corrective,125.23
+INT-0270,EQ-007,Cutting,2026-10-05 12:57:00,2026-10-05 16:55:00,238,203,Hydraulic Failure,Corrective,300.46
+INT-0271,EQ-006,Electrical Control,2026-01-30 15:08:00,2026-01-30 17:59:00,171,125,Sensor Failure,Corrective,21.5
+INT-0272,EQ-008,Preparation,2026-06-06 08:40:00,2026-06-06 08:48:00,8,35,Preventive Maintenance,Preventive,96.99
+INT-0273,EQ-005,Assembly,2026-01-22 19:21:00,2026-01-22 21:15:00,114,91,Mechanical Failure,Corrective,157.38
+INT-0274,EQ-003,Assembly,2026-10-26 09:07:00,2026-10-26 11:04:00,117,79,Electrical Failure,Corrective,489.53
+INT-0275,EQ-002,Cutting,2026-06-30 18:57:00,2026-06-30 21:11:00,134,88,Mechanical Failure,Corrective,447.39
+INT-0276,EQ-012,Injection,2026-02-04 02:24:00,2026-02-04 06:00:00,216,169,Operator Error,Corrective,392.34
+INT-0277,EQ-003,Electrical Control,2026-04-20 22:05:00,2026-04-21 00:37:00,152,96,Wear and Tear,Corrective,102.23
+INT-0278,EQ-007,Assembly,2026-09-26 11:21:00,2026-09-26 14:16:00,175,137,Mechanical Failure,Corrective,421.61
+INT-0279,EQ-004,Electrical Control,2026-07-28 18:11:00,2026-07-28 18:17:00,6,51,Preventive Maintenance,Preventive,115.89
+INT-0280,EQ-006,Cutting,2026-10-10 22:26:00,2026-10-10 22:33:00,7,82,Preventive Maintenance,Preventive,55.04
+INT-0281,EQ-012,Injection,2026-03-22 21:32:00,2026-03-22 23:39:00,127,68,Electrical Failure,Corrective,408.37
+INT-0282,EQ-013,Preparation,2026-03-29 07:03:00,2026-03-29 11:31:00,268,219,Sensor Failure,Corrective,329.12
+INT-0283,EQ-001,Injection,2026-06-09 03:49:00,2026-06-09 07:44:00,235,149,Hydraulic Failure,Corrective,403.87
+INT-0284,EQ-005,Electrical Control,2026-08-08 02:27:00,2026-08-08 03:15:00,48,27,Hydraulic Failure,Corrective,71.49
+INT-0285,EQ-009,Assembly,2026-08-18 21:34:00,2026-08-19 00:07:00,153,74,Electrical Failure,Corrective,76.07
+INT-0286,EQ-012,Injection,2026-04-15 23:35:00,2026-04-16 03:28:00,233,231,Wear and Tear,Corrective,156.09
+INT-0287,EQ-004,Preparation,2026-06-04 16:04:00,2026-06-04 20:59:00,295,231,Mechanical Failure,Corrective,409.5
+INT-0288,EQ-006,Assembly,2026-07-05 10:39:00,2026-07-05 10:59:00,20,42,Preventive Maintenance,Preventive,123.91
+INT-0289,EQ-009,Electrical Control,2026-03-24 05:33:00,2026-03-24 06:50:00,77,55,Electrical Failure,Corrective,218.17
+INT-0290,EQ-014,Preparation,2026-05-05 06:16:00,2026-05-05 11:00:00,284,220,Sensor Failure,Corrective,498.67
+INT-0291,EQ-006,Assembly,2026-06-12 08:22:00,2026-06-12 09:21:00,59,25,Wear and Tear,Corrective,308.24
+INT-0292,EQ-006,Preparation,2026-02-13 00:09:00,2026-02-13 00:23:00,14,21,Preventive Maintenance,Preventive,59.58
+INT-0293,EQ-007,Assembly,2026-05-14 03:03:00,2026-05-14 07:17:00,254,177,Wear and Tear,Corrective,101.94
+INT-0294,EQ-002,Injection,2026-02-24 07:42:00,2026-02-24 07:44:00,2,30,Preventive Maintenance,Preventive,26.03
+INT-0295,EQ-013,Cutting,2026-03-14 08:51:00,2026-03-14 12:49:00,238,229,Mechanical Failure,Corrective,353.59
+INT-0296,EQ-014,Electrical Control,2026-01-05 02:21:00,2026-01-05 02:34:00,13,74,Preventive Maintenance,Preventive,134.74
+INT-0297,EQ-002,Electrical Control,2026-04-26 12:50:00,2026-04-26 16:03:00,193,188,Mechanical Failure,Corrective,406.46
+INT-0298,EQ-012,Electrical Control,2026-04-13 18:32:00,2026-04-13 21:17:00,165,98,Operator Error,Corrective,338.73
+INT-0299,EQ-006,Electrical Control,2026-01-20 13:39:00,2026-01-20 14:07:00,28,27,Preventive Maintenance,Preventive,15.85
+INT-0300,EQ-005,Injection,2026-02-12 01:05:00,2026-02-12 02:46:00,101,79,Sensor Failure,Corrective,244.15
+INT-0301,EQ-008,Cutting,2026-09-12 19:36:00,2026-09-12 22:15:00,159,149,Electrical Failure,Corrective,53.51
+INT-0302,EQ-014,Injection,2026-02-01 04:56:00,2026-02-01 07:14:00,138,118,Mechanical Failure,Corrective,473.96
+INT-0303,EQ-001,Electrical Control,2026-09-25 15:43:00,2026-09-25 17:42:00,119,116,Hydraulic Failure,Corrective,598.08
+INT-0304,EQ-007,Preparation,2026-10-30 01:55:00,2026-10-30 06:46:00,291,240,Hydraulic Failure,Corrective,325.68
+INT-0305,EQ-011,Assembly,2026-01-23 11:31:00,2026-01-23 16:02:00,271,210,Operator Error,Corrective,225.46
+INT-0306,EQ-014,Injection,2026-01-22 15:34:00,2026-01-22 17:23:00,109,105,Wear and Tear,Corrective,164.18
+INT-0307,EQ-008,Electrical Control,2026-06-12 15:33:00,2026-06-12 17:31:00,118,98,Electrical Failure,Corrective,414.97
+INT-0308,EQ-013,Assembly,2026-04-17 19:32:00,2026-04-18 00:53:00,321,237,Operator Error,Corrective,484.89
+INT-0309,EQ-005,Preparation,2026-10-08 10:50:00,2026-10-08 14:40:00,230,210,Hydraulic Failure,Corrective,174.29
+INT-0310,EQ-004,Electrical Control,2026-04-19 11:13:00,2026-04-19 13:45:00,152,71,Sensor Failure,Corrective,238.02
+INT-0311,EQ-009,Cutting,2026-05-16 11:53:00,2026-05-16 15:36:00,223,160,Mechanical Failure,Corrective,402.04
+INT-0312,EQ-010,Assembly,2026-01-03 12:31:00,2026-01-03 12:31:00,0,38,Preventive Maintenance,Preventive,126.13
+INT-0313,EQ-011,Cutting,2026-06-25 20:11:00,2026-06-25 20:33:00,22,84,Preventive Maintenance,Preventive,98.9
+INT-0314,EQ-012,Cutting,2026-01-05 22:19:00,2026-01-06 01:32:00,193,106,Operator Error,Corrective,107.1
+INT-0315,EQ-001,Electrical Control,2026-10-30 05:27:00,2026-10-30 08:14:00,167,96,Mechanical Failure,Corrective,452.8
+INT-0316,EQ-005,Preparation,2026-03-04 04:50:00,2026-03-04 05:06:00,16,33,Preventive Maintenance,Preventive,143.48
+INT-0317,EQ-012,Injection,2026-02-03 13:55:00,2026-02-03 17:24:00,209,158,Sensor Failure,Corrective,403.59
+INT-0318,EQ-012,Cutting,2026-01-21 19:16:00,2026-01-21 19:47:00,31,24,Electrical Failure,Corrective,32.15
+INT-0319,EQ-002,Injection,2026-06-23 07:59:00,2026-06-23 10:26:00,147,123,Mechanical Failure,Corrective,241.52
+INT-0320,EQ-010,Preparation,2026-03-09 19:41:00,2026-03-09 22:25:00,164,87,Mechanical Failure,Corrective,393.46
+INT-0321,EQ-015,Assembly,2026-10-18 14:03:00,2026-10-18 15:54:00,111,110,Wear and Tear,Corrective,301.89
+INT-0322,EQ-009,Injection,2026-04-13 18:17:00,2026-04-13 19:07:00,50,34,Electrical Failure,Corrective,150.28
+INT-0323,EQ-005,Assembly,2026-03-15 05:12:00,2026-03-15 07:46:00,154,133,Hydraulic Failure,Corrective,159.6
+INT-0324,EQ-014,Cutting,2026-09-08 18:53:00,2026-09-08 21:25:00,152,132,Sensor Failure,Corrective,409.44
+INT-0325,EQ-014,Assembly,2026-08-01 13:34:00,2026-08-01 14:31:00,57,37,Operator Error,Corrective,148.22
+INT-0326,EQ-002,Preparation,2026-02-10 06:45:00,2026-02-10 08:54:00,129,108,Hydraulic Failure,Corrective,45.04
+INT-0327,EQ-003,Assembly,2026-03-24 19:26:00,2026-03-24 23:11:00,225,199,Electrical Failure,Corrective,143.84
+INT-0328,EQ-015,Injection,2026-01-03 14:34:00,2026-01-03 18:38:00,244,184,Mechanical Failure,Corrective,314.85
+INT-0329,EQ-010,Preparation,2026-01-21 15:25:00,2026-01-21 16:47:00,82,58,Operator Error,Corrective,112.84
+INT-0330,EQ-008,Injection,2026-10-16 19:12:00,2026-10-16 21:23:00,131,127,Sensor Failure,Corrective,595.25
+INT-0331,EQ-014,Injection,2026-03-08 00:41:00,2026-03-08 04:06:00,205,117,Electrical Failure,Corrective,450.56
+INT-0332,EQ-006,Preparation,2026-04-24 00:08:00,2026-04-24 02:31:00,143,131,Mechanical Failure,Corrective,341.45
+INT-0333,EQ-009,Preparation,2026-04-09 12:37:00,2026-04-09 12:53:00,16,21,Preventive Maintenance,Preventive,1.65
+INT-0334,EQ-007,Injection,2026-04-12 16:51:00,2026-04-12 17:06:00,15,84,Preventive Maintenance,Preventive,22.33
+INT-0335,EQ-006,Injection,2026-03-11 18:43:00,2026-03-11 19:02:00,19,13,Preventive Maintenance,Preventive,117.06
+INT-0336,EQ-014,Assembly,2026-08-22 01:09:00,2026-08-22 05:54:00,285,232,Operator Error,Corrective,36.86
+INT-0337,EQ-003,Electrical Control,2026-10-27 07:40:00,2026-10-27 08:35:00,55,39,Hydraulic Failure,Corrective,315.86
+INT-0338,EQ-003,Assembly,2026-09-06 05:10:00,2026-09-06 08:04:00,174,151,Electrical Failure,Corrective,367.63
+INT-0339,EQ-008,Electrical Control,2026-09-16 16:48:00,2026-09-16 17:01:00,13,72,Preventive Maintenance,Preventive,22.35
+INT-0340,EQ-013,Assembly,2026-04-17 04:09:00,2026-04-17 06:55:00,166,136,Hydraulic Failure,Corrective,320.02
+INT-0341,EQ-012,Injection,2026-04-06 08:48:00,2026-04-06 12:27:00,219,202,Hydraulic Failure,Corrective,56.27
+INT-0342,EQ-004,Assembly,2026-10-12 07:20:00,2026-10-12 07:20:00,0,54,Preventive Maintenance,Preventive,63.19
+INT-0343,EQ-012,Injection,2026-05-30 07:22:00,2026-05-30 07:27:00,5,24,Preventive Maintenance,Preventive,148.67
+INT-0344,EQ-013,Injection,2026-01-03 09:51:00,2026-01-03 12:19:00,148,88,Electrical Failure,Corrective,214.02
+INT-0345,EQ-003,Electrical Control,2026-04-06 11:09:00,2026-04-06 14:35:00,206,137,Mechanical Failure,Corrective,559.18
+INT-0346,EQ-005,Assembly,2026-07-19 11:46:00,2026-07-19 13:16:00,90,65,Sensor Failure,Corrective,238.61
+INT-0347,EQ-010,Assembly,2026-06-20 00:09:00,2026-06-20 00:13:00,4,73,Preventive Maintenance,Preventive,105.9
+INT-0348,EQ-009,Assembly,2026-01-04 13:05:00,2026-01-04 16:07:00,182,182,Mechanical Failure,Corrective,24.08
+INT-0349,EQ-014,Assembly,2026-04-07 09:28:00,2026-04-07 11:41:00,133,50,Mechanical Failure,Corrective,574.84
+INT-0350,EQ-014,Preparation,2026-04-08 15:49:00,2026-04-08 19:54:00,245,239,Sensor Failure,Corrective,179.86
+INT-0351,EQ-009,Electrical Control,2026-06-10 16:30:00,2026-06-10 20:03:00,213,125,Operator Error,Corrective,175.52
+INT-0352,EQ-001,Injection,2026-04-03 20:35:00,2026-04-03 20:55:00,20,66,Preventive Maintenance,Preventive,79.86
+INT-0353,EQ-015,Electrical Control,2026-06-08 07:26:00,2026-06-08 11:29:00,243,162,Sensor Failure,Corrective,578.77
+INT-0354,EQ-005,Preparation,2026-10-02 19:55:00,2026-10-02 22:27:00,152,139,Mechanical Failure,Corrective,306.8
+INT-0355,EQ-009,Electrical Control,2026-06-23 05:10:00,2026-06-23 09:43:00,273,237,Mechanical Failure,Corrective,289.08
+INT-0356,EQ-004,Preparation,2026-02-26 21:12:00,2026-02-27 01:20:00,248,208,Mechanical Failure,Corrective,107.72
+INT-0357,EQ-012,Preparation,2026-04-25 04:37:00,2026-04-25 06:49:00,132,52,Operator Error,Corrective,151.9
+INT-0358,EQ-014,Preparation,2026-08-09 17:42:00,2026-08-09 20:15:00,153,105,Mechanical Failure,Corrective,375.48
+INT-0359,EQ-002,Preparation,2026-01-10 03:00:00,2026-01-10 03:25:00,25,24,Wear and Tear,Corrective,512.99
+INT-0360,EQ-015,Assembly,2026-03-08 17:51:00,2026-03-08 21:47:00,236,198,Wear and Tear,Corrective,188.54
+INT-0361,EQ-007,Electrical Control,2026-04-13 19:46:00,2026-04-14 00:19:00,273,211,Mechanical Failure,Corrective,136.79
+INT-0362,EQ-004,Assembly,2026-02-14 08:30:00,2026-02-14 11:22:00,172,87,Operator Error,Corrective,402.59
+INT-0363,EQ-015,Preparation,2026-07-21 05:28:00,2026-07-21 09:32:00,244,187,Hydraulic Failure,Corrective,467.77
+INT-0364,EQ-004,Injection,2026-07-11 11:09:00,2026-07-11 14:50:00,221,150,Hydraulic Failure,Corrective,332.45
+INT-0365,EQ-003,Electrical Control,2026-05-05 17:55:00,2026-05-05 20:05:00,130,42,Sensor Failure,Corrective,240.64
+INT-0366,EQ-012,Assembly,2026-04-03 19:03:00,2026-04-03 19:12:00,9,21,Preventive Maintenance,Preventive,14.11
+INT-0367,EQ-015,Preparation,2026-08-11 04:52:00,2026-08-11 05:14:00,22,81,Preventive Maintenance,Preventive,96.4
+INT-0368,EQ-003,Electrical Control,2026-10-21 07:15:00,2026-10-21 11:03:00,228,217,Electrical Failure,Corrective,203.72
+INT-0369,EQ-001,Electrical Control,2026-05-27 05:05:00,2026-05-27 05:10:00,5,49,Preventive Maintenance,Preventive,21.11
+INT-0370,EQ-006,Injection,2026-07-13 21:35:00,2026-07-13 23:44:00,129,126,Wear and Tear,Corrective,376.87
+INT-0371,EQ-001,Electrical Control,2026-02-13 17:47:00,2026-02-13 18:00:00,13,20,Preventive Maintenance,Preventive,47.95
+INT-0372,EQ-012,Preparation,2026-08-07 16:20:00,2026-08-07 16:32:00,12,39,Preventive Maintenance,Preventive,48.45
+INT-0373,EQ-001,Assembly,2026-01-06 20:38:00,2026-01-06 23:31:00,173,147,Operator Error,Corrective,344.66
+INT-0374,EQ-013,Cutting,2026-04-18 20:09:00,2026-04-18 22:38:00,149,145,Sensor Failure,Corrective,128.7
+INT-0375,EQ-009,Injection,2026-03-08 10:25:00,2026-03-08 10:43:00,18,15,Preventive Maintenance,Preventive,113.94
+INT-0376,EQ-006,Injection,2026-06-18 18:51:00,2026-06-18 19:11:00,20,82,Preventive Maintenance,Preventive,38.15
+INT-0377,EQ-014,Cutting,2026-05-13 02:37:00,2026-05-13 03:04:00,27,30,Preventive Maintenance,Preventive,123.9
+INT-0378,EQ-010,Injection,2026-01-13 13:39:00,2026-01-13 15:12:00,93,53,Sensor Failure,Corrective,281.2
+INT-0379,EQ-011,Injection,2026-08-24 11:59:00,2026-08-24 14:47:00,168,147,Mechanical Failure,Corrective,508.04
+INT-0380,EQ-008,Assembly,2026-05-12 08:19:00,2026-05-12 10:58:00,159,144,Electrical Failure,Corrective,208.56
+INT-0381,EQ-007,Injection,2026-02-22 22:29:00,2026-02-23 02:28:00,239,220,Hydraulic Failure,Corrective,595.21
+INT-0382,EQ-005,Electrical Control,2026-09-01 03:04:00,2026-09-01 04:47:00,103,66,Operator Error,Corrective,39.25
+INT-0383,EQ-013,Preparation,2026-08-04 22:05:00,2026-08-05 02:04:00,239,223,Mechanical Failure,Corrective,477.3
+INT-0384,EQ-008,Assembly,2026-08-31 05:25:00,2026-08-31 09:45:00,260,238,Sensor Failure,Corrective,84.37
+INT-0385,EQ-011,Assembly,2026-07-12 11:41:00,2026-07-12 12:53:00,72,54,Wear and Tear,Corrective,485.37
+INT-0386,EQ-006,Cutting,2026-06-20 23:03:00,2026-06-21 01:03:00,120,107,Electrical Failure,Corrective,580.42
+INT-0387,EQ-004,Electrical Control,2026-01-11 14:42:00,2026-01-11 17:53:00,191,150,Sensor Failure,Corrective,486.85
+INT-0388,EQ-008,Electrical Control,2026-07-09 16:26:00,2026-07-09 16:40:00,14,28,Preventive Maintenance,Preventive,67.48
+INT-0389,EQ-008,Assembly,2026-10-23 01:11:00,2026-10-23 05:28:00,257,228,Mechanical Failure,Corrective,27.19
+INT-0390,EQ-004,Injection,2026-09-29 01:46:00,2026-09-29 03:56:00,130,72,Wear and Tear,Corrective,451.05
+INT-0391,EQ-006,Cutting,2026-09-29 11:19:00,2026-09-29 11:27:00,8,11,Preventive Maintenance,Preventive,49.56
+INT-0392,EQ-001,Assembly,2026-08-20 06:54:00,2026-08-20 07:09:00,15,64,Preventive Maintenance,Preventive,35.93
+INT-0393,EQ-004,Electrical Control,2026-08-16 05:51:00,2026-08-16 08:24:00,153,69,Operator Error,Corrective,56.91
+INT-0394,EQ-001,Preparation,2026-07-13 08:32:00,2026-07-13 13:12:00,280,220,Mechanical Failure,Corrective,408.14
+INT-0395,EQ-014,Cutting,2026-01-23 08:14:00,2026-01-23 08:25:00,11,49,Preventive Maintenance,Preventive,136.6
+INT-0396,EQ-004,Cutting,2026-03-30 17:55:00,2026-03-30 20:08:00,133,112,Operator Error,Corrective,386.16
+INT-0397,EQ-006,Assembly,2026-01-21 00:03:00,2026-01-21 02:27:00,144,74,Hydraulic Failure,Corrective,80.45
+INT-0398,EQ-009,Cutting,2026-01-08 16:53:00,2026-01-08 21:53:00,300,213,Electrical Failure,Corrective,294.28
+INT-0399,EQ-012,Preparation,2026-01-28 21:57:00,2026-01-29 02:14:00,257,233,Electrical Failure,Corrective,229.87
+INT-0400,EQ-001,Injection,2026-09-17 21:06:00,2026-09-17 21:30:00,24,74,Preventive Maintenance,Preventive,49.7
+INT-0401,EQ-006,Cutting,2026-07-05 19:14:00,2026-07-05 23:52:00,278,195,Mechanical Failure,Corrective,319.61
+INT-0402,EQ-010,Electrical Control,2026-08-11 17:01:00,2026-08-11 20:18:00,197,155,Hydraulic Failure,Corrective,82.65
+INT-0403,EQ-008,Electrical Control,2026-01-12 20:47:00,2026-01-12 23:01:00,134,81,Wear and Tear,Corrective,181.14
+INT-0404,EQ-007,Cutting,2026-09-30 17:20:00,2026-09-30 19:27:00,127,107,Sensor Failure,Corrective,530.32
+INT-0405,EQ-014,Electrical Control,2026-01-16 10:07:00,2026-01-16 10:55:00,48,30,Sensor Failure,Corrective,96.26
+INT-0406,EQ-012,Electrical Control,2026-08-13 10:19:00,2026-08-13 12:12:00,113,38,Operator Error,Corrective,434.14
+INT-0407,EQ-007,Electrical Control,2026-06-28 16:44:00,2026-06-28 19:41:00,177,109,Mechanical Failure,Corrective,389.11
+INT-0408,EQ-002,Assembly,2026-04-04 15:12:00,2026-04-04 15:31:00,19,56,Preventive Maintenance,Preventive,102.99
+INT-0409,EQ-012,Assembly,2026-06-28 05:18:00,2026-06-28 09:42:00,264,183,Operator Error,Corrective,90.19
+INT-0410,EQ-015,Electrical Control,2026-07-13 15:39:00,2026-07-13 15:47:00,8,24,Preventive Maintenance,Preventive,141.26
+INT-0411,EQ-003,Cutting,2026-10-25 02:26:00,2026-10-25 05:16:00,170,94,Electrical Failure,Corrective,311.25
+INT-0412,EQ-002,Electrical Control,2026-05-04 09:31:00,2026-05-04 11:16:00,105,22,Wear and Tear,Corrective,89.92
+INT-0413,EQ-014,Assembly,2026-04-06 05:03:00,2026-04-06 07:35:00,152,113,Electrical Failure,Corrective,26.79
+INT-0414,EQ-014,Cutting,2026-04-26 01:36:00,2026-04-26 03:34:00,118,74,Electrical Failure,Corrective,547.88
+INT-0415,EQ-005,Injection,2026-06-14 04:40:00,2026-06-14 05:45:00,65,42,Mechanical Failure,Corrective,59.08
+INT-0416,EQ-014,Assembly,2026-10-26 06:04:00,2026-10-26 09:34:00,210,138,Operator Error,Corrective,519.81
+INT-0417,EQ-009,Injection,2026-09-09 13:51:00,2026-09-09 18:31:00,280,214,Hydraulic Failure,Corrective,355.97
+INT-0418,EQ-005,Assembly,2026-08-23 15:53:00,2026-08-23 17:41:00,108,76,Electrical Failure,Corrective,116.78
+INT-0419,EQ-010,Assembly,2026-07-16 20:16:00,2026-07-17 00:34:00,258,212,Hydraulic Failure,Corrective,217.07
+INT-0420,EQ-005,Preparation,2026-03-25 11:54:00,2026-03-25 16:02:00,248,238,Mechanical Failure,Corrective,78.73
+INT-0421,EQ-004,Cutting,2026-03-05 14:15:00,2026-03-05 14:20:00,5,85,Preventive Maintenance,Preventive,68.1
+INT-0422,EQ-013,Assembly,2026-10-05 23:25:00,2026-10-06 03:11:00,226,139,Sensor Failure,Corrective,328.51
+INT-0423,EQ-002,Injection,2026-01-06 06:37:00,2026-01-06 09:46:00,189,126,Sensor Failure,Corrective,112.81
+INT-0424,EQ-005,Preparation,2026-06-23 16:20:00,2026-06-23 17:50:00,90,49,Operator Error,Corrective,504.58
+INT-0425,EQ-009,Cutting,2026-01-23 01:38:00,2026-01-23 03:29:00,111,106,Hydraulic Failure,Corrective,597.02
+INT-0426,EQ-006,Assembly,2026-07-16 07:22:00,2026-07-16 10:52:00,210,194,Operator Error,Corrective,583.03
+INT-0427,EQ-006,Electrical Control,2026-10-12 01:44:00,2026-10-12 01:56:00,12,58,Preventive Maintenance,Preventive,81.26
+INT-0428,EQ-013,Injection,2026-02-04 18:58:00,2026-02-04 19:07:00,9,12,Preventive Maintenance,Preventive,124.02
+INT-0429,EQ-004,Injection,2026-01-01 05:40:00,2026-01-01 09:13:00,213,193,Hydraulic Failure,Corrective,501.8
+INT-0430,EQ-003,Electrical Control,2026-10-22 08:30:00,2026-10-22 09:25:00,55,43,Electrical Failure,Corrective,303.56
+INT-0431,EQ-007,Electrical Control,2026-07-16 02:03:00,2026-07-16 02:28:00,25,33,Preventive Maintenance,Preventive,69.22
+INT-0432,EQ-011,Electrical Control,2026-02-25 19:48:00,2026-02-25 23:07:00,199,164,Wear and Tear,Corrective,152.09
+INT-0433,EQ-006,Injection,2026-07-20 09:25:00,2026-07-20 13:23:00,238,192,Hydraulic Failure,Corrective,42.03
+INT-0434,EQ-010,Assembly,2026-01-06 08:04:00,2026-01-06 12:47:00,283,228,Hydraulic Failure,Corrective,290.73
+INT-0435,EQ-012,Assembly,2026-02-16 02:58:00,2026-02-16 03:23:00,25,28,Preventive Maintenance,Preventive,147.15
+INT-0436,EQ-007,Injection,2026-08-25 13:42:00,2026-08-25 13:42:00,0,84,Preventive Maintenance,Preventive,84.41
+INT-0437,EQ-002,Assembly,2026-02-17 11:04:00,2026-02-17 15:42:00,278,228,Operator Error,Corrective,588.83
+INT-0438,EQ-015,Cutting,2026-01-05 06:22:00,2026-01-05 06:28:00,6,13,Preventive Maintenance,Preventive,143.41
+INT-0439,EQ-003,Injection,2026-07-07 14:40:00,2026-07-07 17:31:00,171,100,Sensor Failure,Corrective,200.9
+INT-0440,EQ-013,Injection,2026-10-18 18:54:00,2026-10-18 22:52:00,238,208,Electrical Failure,Corrective,296.57
+INT-0441,EQ-012,Preparation,2026-01-14 10:17:00,2026-01-14 10:46:00,29,51,Preventive Maintenance,Preventive,96.67
+INT-0442,EQ-003,Injection,2026-02-26 13:22:00,2026-02-26 17:14:00,232,203,Mechanical Failure,Corrective,480.17
+INT-0443,EQ-001,Assembly,2026-02-28 20:41:00,2026-03-01 00:03:00,202,132,Wear and Tear,Corrective,28.3
+INT-0444,EQ-005,Assembly,2026-06-28 09:50:00,2026-06-28 10:02:00,12,46,Preventive Maintenance,Preventive,113.01
+INT-0445,EQ-008,Cutting,2026-01-08 21:50:00,2026-01-08 22:45:00,55,20,Sensor Failure,Corrective,375.89
+INT-0446,EQ-011,Injection,2026-07-02 00:13:00,2026-07-02 02:43:00,150,147,Wear and Tear,Corrective,34.21
+INT-0447,EQ-013,Electrical Control,2026-01-30 01:49:00,2026-01-30 06:32:00,283,207,Operator Error,Corrective,424.7
+INT-0448,EQ-010,Assembly,2026-05-23 11:17:00,2026-05-23 12:57:00,100,35,Mechanical Failure,Corrective,310.36
+INT-0449,EQ-015,Assembly,2026-06-14 09:31:00,2026-06-14 12:01:00,150,85,Electrical Failure,Corrective,253.67
+INT-0450,EQ-014,Injection,2026-07-01 15:30:00,2026-07-01 15:52:00,22,17,Preventive Maintenance,Preventive,139.38
+INT-0451,EQ-014,Electrical Control,2026-01-17 12:22:00,2026-01-17 14:12:00,110,72,Mechanical Failure,Corrective,338.41
+INT-0452,EQ-015,Cutting,2026-03-26 21:38:00,2026-03-26 23:08:00,90,72,Mechanical Failure,Corrective,460.57
+INT-0453,EQ-004,Assembly,2026-01-27 14:53:00,2026-01-27 16:35:00,102,93,Hydraulic Failure,Corrective,382.37
+INT-0454,EQ-004,Electrical Control,2026-04-24 04:33:00,2026-04-24 08:20:00,227,175,Wear and Tear,Corrective,346.71
+INT-0455,EQ-002,Preparation,2026-08-09 23:35:00,2026-08-09 23:57:00,22,21,Preventive Maintenance,Preventive,23.79
+INT-0456,EQ-015,Cutting,2026-05-05 21:18:00,2026-05-05 21:26:00,8,84,Preventive Maintenance,Preventive,112.3
+INT-0457,EQ-006,Cutting,2026-03-03 20:41:00,2026-03-03 22:58:00,137,112,Electrical Failure,Corrective,180.18
+INT-0458,EQ-013,Assembly,2026-05-27 07:35:00,2026-05-27 10:48:00,193,188,Operator Error,Corrective,565.46
+INT-0459,EQ-012,Assembly,2026-01-14 04:48:00,2026-01-14 07:12:00,144,126,Mechanical Failure,Corrective,508.77
+INT-0460,EQ-006,Assembly,2026-03-20 20:30:00,2026-03-20 20:42:00,12,60,Preventive Maintenance,Preventive,63.36
+INT-0461,EQ-012,Injection,2026-06-16 16:16:00,2026-06-16 21:07:00,291,205,Electrical Failure,Corrective,347.48
+INT-0462,EQ-005,Injection,2026-07-18 08:22:00,2026-07-18 08:36:00,14,19,Preventive Maintenance,Preventive,25.04
+INT-0463,EQ-014,Cutting,2026-06-03 11:55:00,2026-06-03 12:41:00,46,30,Hydraulic Failure,Corrective,427.47
+INT-0464,EQ-005,Assembly,2026-09-13 06:10:00,2026-09-13 10:11:00,241,230,Operator Error,Corrective,47.95
+INT-0465,EQ-014,Injection,2026-02-16 11:14:00,2026-02-16 11:29:00,15,56,Preventive Maintenance,Preventive,31.33
+INT-0466,EQ-015,Preparation,2026-07-28 16:06:00,2026-07-28 17:59:00,113,32,Operator Error,Corrective,496.86
+INT-0467,EQ-001,Assembly,2026-01-15 10:48:00,2026-01-15 15:07:00,259,185,Wear and Tear,Corrective,530.49
+INT-0468,EQ-012,Assembly,2026-09-14 19:56:00,2026-09-14 23:05:00,189,181,Hydraulic Failure,Corrective,448.39
+INT-0469,EQ-012,Injection,2026-07-13 19:07:00,2026-07-13 21:13:00,126,73,Mechanical Failure,Corrective,536.32
+INT-0470,EQ-015,Electrical Control,2026-07-20 13:36:00,2026-07-20 16:46:00,190,137,Electrical Failure,Corrective,335.41
+INT-0471,EQ-004,Preparation,2026-07-21 14:36:00,2026-07-21 18:03:00,207,184,Electrical Failure,Corrective,31.21
+INT-0472,EQ-013,Injection,2026-05-08 00:05:00,2026-05-08 00:52:00,47,36,Wear and Tear,Corrective,174.67
+INT-0473,EQ-004,Assembly,2026-04-02 23:53:00,2026-04-03 00:18:00,25,69,Preventive Maintenance,Preventive,101.63
+INT-0474,EQ-005,Preparation,2026-08-23 23:44:00,2026-08-24 02:44:00,180,123,Hydraulic Failure,Corrective,92.82
+INT-0475,EQ-005,Cutting,2026-03-21 10:37:00,2026-03-21 10:41:00,4,43,Preventive Maintenance,Preventive,39.84
+INT-0476,EQ-012,Injection,2026-02-18 07:21:00,2026-02-18 07:40:00,19,16,Preventive Maintenance,Preventive,96.28
+INT-0477,EQ-008,Cutting,2026-05-06 19:56:00,2026-05-06 23:20:00,204,154,Mechanical Failure,Corrective,337.24
+INT-0478,EQ-008,Injection,2026-01-20 13:11:00,2026-01-20 17:34:00,263,219,Wear and Tear,Corrective,108.35
+INT-0479,EQ-007,Assembly,2026-01-02 12:44:00,2026-01-02 15:08:00,144,117,Operator Error,Corrective,453.52
+INT-0480,EQ-004,Preparation,2026-03-19 22:17:00,2026-03-20 00:28:00,131,123,Operator Error,Corrective,327.83
+INT-0481,EQ-010,Assembly,2026-02-12 12:15:00,2026-02-12 13:23:00,68,47,Mechanical Failure,Corrective,138.89
+INT-0482,EQ-003,Injection,2026-08-24 16:24:00,2026-08-24 17:33:00,69,45,Electrical Failure,Corrective,202.79
+INT-0483,EQ-011,Injection,2026-05-10 17:43:00,2026-05-10 17:57:00,14,77,Preventive Maintenance,Preventive,24.58
+INT-0484,EQ-012,Cutting,2026-01-23 12:30:00,2026-01-23 12:35:00,5,61,Preventive Maintenance,Preventive,43.58
+INT-0485,EQ-002,Electrical Control,2026-08-26 20:24:00,2026-08-26 20:41:00,17,55,Preventive Maintenance,Preventive,103.51
+INT-0486,EQ-011,Preparation,2026-03-20 11:20:00,2026-03-20 15:55:00,275,222,Mechanical Failure,Corrective,575.6
+INT-0487,EQ-014,Preparation,2026-10-16 02:01:00,2026-10-16 03:26:00,85,40,Operator Error,Corrective,380.13
+INT-0488,EQ-008,Assembly,2026-01-31 01:49:00,2026-01-31 04:31:00,162,160,Wear and Tear,Corrective,521.1
+INT-0489,EQ-013,Preparation,2026-04-08 03:23:00,2026-04-08 03:39:00,16,42,Preventive Maintenance,Preventive,147.18
+INT-0490,EQ-003,Assembly,2026-04-11 17:31:00,2026-04-11 17:39:00,8,79,Preventive Maintenance,Preventive,29.54
+INT-0491,EQ-012,Injection,2026-06-07 17:35:00,2026-06-07 18:00:00,25,68,Preventive Maintenance,Preventive,78.38
+INT-0492,EQ-010,Assembly,2026-08-15 07:45:00,2026-08-15 09:49:00,124,38,Wear and Tear,Corrective,380.96
+INT-0493,EQ-011,Injection,2026-07-19 15:56:00,2026-07-19 16:24:00,28,68,Preventive Maintenance,Preventive,141.56
+INT-0494,EQ-014,Assembly,2026-02-08 17:05:00,2026-02-08 20:13:00,188,181,Operator Error,Corrective,515.45
+INT-0495,EQ-006,Electrical Control,2026-10-16 00:38:00,2026-10-16 03:16:00,158,100,Hydraulic Failure,Corrective,347.75
+INT-0496,EQ-012,Preparation,2026-02-24 03:20:00,2026-02-24 07:37:00,257,184,Hydraulic Failure,Corrective,227.08
+INT-0497,EQ-007,Injection,2026-04-19 01:24:00,2026-04-19 01:51:00,27,51,Preventive Maintenance,Preventive,26.68
+INT-0498,EQ-010,Assembly,2026-08-27 07:54:00,2026-08-27 11:20:00,206,140,Hydraulic Failure,Corrective,404.21
+INT-0499,EQ-009,Electrical Control,2026-01-29 06:15:00,2026-01-29 09:42:00,207,174,Sensor Failure,Corrective,306.91
+INT-0500,EQ-003,Cutting,2026-07-21 19:46:00,2026-07-21 23:56:00,250,231,Operator Error,Corrective,38.92

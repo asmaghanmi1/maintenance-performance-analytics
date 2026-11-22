@@ -1,0 +1,6 @@
+zone,total_downtime,number_of_interventions,average_downtime
+Assembly,15399,113,136.27433628318585
+Injection,14667,119,123.25210084033614
+Electrical Control,12237,93,131.58064516129033
+Preparation,12085,91,132.8021978021978
+Cutting,11408,84,135.8095238095238

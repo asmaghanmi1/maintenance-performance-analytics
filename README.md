@@ -1,69 +1,60 @@
 # Maintenance Performance Analytics
 
-**End-to-end BI Case Study | Python (Pandas) | Power BI | Maintenance KPIs | Downtime & Failure Analysis**
+**End-to-end BI Case Study | Python (Pandas) | Power BI | Maintenance KPIs | Data Analysis**
 
-Inspired by my professional experience in industrial maintenance reporting at COFAT (Tunisia), where weekly and monthly reports were produced using Excel, this project demonstrates how existing operational reporting can be extended toward an interactive, data-driven Business Intelligence approach.
+An independent Business Intelligence case study inspired by my professional experience in industrial maintenance reporting at COFAT, Tunisia.
 
-All data used in this repository is **synthetic**. No confidential COFAT data or internal reports are included. The value of this project lies in its analytical methodology, KPI model, data preparation process, and dashboard design rather than the numerical results.
+The objective is to demonstrate how existing Excel-based maintenance reporting can be extended into a structured, analytical and decision-oriented BI approach.
+
+> **Data confidentiality:** All data in this repository is synthetic. No confidential COFAT operational data or internal reports are included. The project demonstrates the methodology, KPI model and analytical approach, not actual company performance.
 
 ---
 
-## 1. What This Project Demonstrates
+## Key Takeaways
 
-| Skill expected from a Data Consultant | Implementation |
-|---|---|
-| Data cleaning and preparation | `src/analyze_data.py` — data type conversion, category standardization, duplicate checks, and date/duration validation |
-| Python and Pandas analysis | `src/business_analysis.py` — KPI computation, Pareto analysis, equipment performance, and monthly and weekly aggregations |
-| Data analysis and interpretation | Identification of downtime patterns, failure contributors, and equipment requiring further investigation |
-| Data modelling and KPI definition | Maintenance performance indicators and analytical datasets |
-| Business Intelligence | Interactive Power BI dashboard |
-| Business recommendations | Translation of analytical findings into potential improvement actions |
-| Analytical limitations | Identification of missing data required for MTBF and availability calculations |
+| Indicator | Result |
+|---|---:|
+| Maintenance interventions analyzed | 500 |
+| Equipment units | 15 |
+| Corrective maintenance rate | 73.8% |
+| Total downtime | 1,096.6 hours |
+| Corrective MTTR | 130.15 minutes |
+| Top 3 equipment downtime contribution | 27.1% |
 
-## 2. Professional Context
+*All figures are calculated from the synthetic dataset.*
 
-During my professional experience at **COFAT**, I contributed to recurring weekly and monthly maintenance reporting using Excel.
+## 1. Professional Context
 
-These reports provided operational visibility into maintenance activities, equipment downtime, and performance indicators.
+During my professional experience at **COFAT**, I contributed to weekly and monthly maintenance reporting using Excel.
 
-I identified an opportunity to extend this existing reporting approach through Business Intelligence, particularly Power BI.
+I identified an opportunity to extend the existing reporting approach through Business Intelligence, particularly Power BI.
 
-The proposed analytical approach involved studying a three-month maintenance dataset to:
+The proposed professional approach involved analyzing three months of maintenance data to identify problematic equipment, understand downtime contributors, prioritize improvement actions and define measurable performance objectives.
 
-- Identify problematic equipment.
-- Understand the main contributors to downtime.
-- Analyze maintenance performance.
-- Prioritize improvement opportunities.
-- Define measurable performance objectives.
+The public portfolio dataset is independent of that professional work: it is synthetic and covers January–October 2026. It does not represent the actual three-month COFAT analysis or its results. The Power BI dashboard is a portfolio demonstration, not a deployed COFAT solution.
 
-Due to company confidentiality requirements, actual operational data and internal reports cannot be shared publicly.
+## 2. Business Questions
 
-This repository independently demonstrates the proposed analytical approach using synthetic data. It does not reproduce COFAT's actual operational results and does not claim that the Power BI dashboard was deployed at COFAT.
-
-## 3. Business Questions
-
-The analysis addresses the following business questions:
+This project addresses the following questions:
 
 1. Which equipment generates the highest downtime?
-2. How is downtime distributed across production zones?
-3. Which failure causes contribute most to downtime?
+2. Which production zones contribute most to downtime?
+3. Which failure causes have the greatest impact?
 4. How do corrective and preventive maintenance compare?
 5. Where should improvement actions be prioritized?
 6. Which KPIs should be monitored over time?
-7. How can maintenance reporting support operational decision-making?
 
-## 4. Dataset Description
+## 3. Dataset
 
-The project uses a synthetic maintenance dataset generated with Python.
+A synthetic dataset generated with Python, containing:
 
 | Attribute | Value |
 |---|---:|
-| Number of interventions | 500 |
-| Equipment units | 15 |
+| Interventions | 500 |
+| Equipment | 15 |
 | Production zones | 5 |
-| Period covered | January–October 2026 |
-| Data format | CSV |
-| Data source | Synthetic dataset generated with Python |
+| Period | January–October 2026 |
+| Format | CSV |
 
 ### Data dictionary
 
@@ -80,119 +71,90 @@ The project uses a synthetic maintenance dataset generated with Python.
 | `intervention_type` | Corrective or preventive |
 | `spare_part_cost` | Spare parts cost |
 
-All records and numerical findings in this repository are synthetic and are used exclusively to demonstrate the analytical methodology.
+## 4. Technology Stack
 
-## 5. Technology Stack
-
-- **Python:** Data processing and analysis.
-- **Pandas:** Data manipulation, aggregation, and KPI calculation.
+- **Python:** Data preparation and analysis.
+- **Pandas:** Data cleaning, transformation and aggregation.
 - **NumPy:** Numerical operations.
-- **Power BI Desktop:** Interactive reporting and visualization.
+- **Power BI Desktop:** Interactive dashboard and visualization.
 - **CSV:** Data storage and exchange.
-- **Git and GitHub:** Version control and project management.
+- **Git and GitHub:** Version control.
 
-## 6. Project Workflow
+## 5. Data Analysis Workflow
 
-The project follows an end-to-end data analysis workflow.
+The project follows an end-to-end analytical workflow:
 
-### Step 1 — Data Generation
+**1. Data generation**
+- Creation of a synthetic maintenance dataset.
 
-A synthetic dataset is generated to simulate maintenance interventions across multiple production zones and equipment units.
+**2. Data preparation — `src/analyze_data.py`**
+- Data type conversion.
+- Category standardization.
+- Duplicate checks.
+- Date and duration validation.
+- Clean dataset preparation.
 
-### Step 2 — Data Cleaning and Preparation
+**3. Business analysis — `src/business_analysis.py`**
+- Maintenance KPI calculation.
+- Downtime analysis by zone and intervention type.
+- Pareto analysis of failure causes.
+- Equipment performance analysis.
+- Spare parts cost analysis.
+- Monthly and weekly performance aggregation.
 
-The preparation process includes:
+### Generated analytical datasets
 
-- Loading the raw CSV dataset.
-- Inspecting the dataset structure.
-- Converting data types.
-- Standardizing intervention categories.
-- Checking duplicate records.
-- Validating intervention dates.
-- Checking repair duration consistency.
-- Preparing a clean dataset for analysis.
-
-Main script: `src/analyze_data.py`
-
-### Step 3 — Exploratory Data Analysis
-
-The dataset is analyzed to understand:
-
-- Maintenance intervention distribution.
-- Downtime patterns.
-- Failure causes.
-- Corrective and preventive maintenance.
-- Equipment performance.
-- Spare parts costs.
-- Monthly and weekly trends.
-
-### Step 4 — Business Analysis
-
-Python and Pandas are used to calculate KPIs and generate aggregated datasets.
-
-Main script: `src/business_analysis.py`
-
-The analysis generates:
-
-| Output | Purpose |
+| File | Purpose |
 |---|---|
-| `downtime_by_zone.csv` | Downtime comparison across production zones |
-| `pareto_analysis.csv` | Ranking of failure causes by downtime |
-| `cost_by_type.csv` | Spare parts cost analysis by intervention type |
-| `downtime_by_type.csv` | Downtime comparison by intervention type |
-| `equipment_performance.csv` | Equipment-level performance analysis |
-| `monthly_performance.csv` | Monthly maintenance performance |
-| `weekly_performance.csv` | Weekly maintenance performance |
+| `downtime_by_zone.csv` | Downtime by production zone |
+| `pareto_analysis.csv` | Failure cause ranking |
+| `cost_by_type.csv` | Spare parts cost by intervention type |
+| `downtime_by_type.csv` | Corrective vs preventive downtime |
+| `equipment_performance.csv` | Equipment-level performance |
+| `monthly_performance.csv` | Monthly performance trends |
+| `weekly_performance.csv` | Weekly performance trends |
 
-## 7. Key Performance Indicators
+## 6. KPI Definitions
 
-The project focuses on the following maintenance KPIs:
-
-| KPI | Definition |
+| KPI | Calculation |
 |---|---|
-| Total Equipment | Number of distinct equipment units |
-| Total Interventions | Total number of maintenance interventions |
-| Total Downtime | Sum of equipment downtime |
-| Average Downtime | Total downtime divided by the number of interventions |
-| Corrective Rate | Corrective interventions divided by total interventions |
+| Total Downtime (hours) | Total downtime minutes / 60 |
+| Average Downtime | Total downtime / number of interventions |
+| Corrective Rate | Corrective interventions / total interventions × 100 |
 | Corrective MTTR | Average repair duration for corrective interventions |
-| Spare Parts Cost | Sum of spare parts costs |
+| Spare Parts Cost | Sum of spare parts cost values |
 
-### KPI calculation details
+### Calculation details
 
 **Total Downtime (hours)**
 
-\[
+$$
 \frac{\sum Downtime\ Minutes}{60}
-\]
+$$
 
 **Average Downtime (minutes)**
 
-\[
+$$
 \frac{\sum Downtime\ Minutes}{Number\ of\ Interventions}
-\]
+$$
 
 **Corrective Rate (%)**
 
-\[
+$$
 \frac{Corrective\ Interventions}{Total\ Interventions}\times100
-\]
+$$
 
 **Corrective MTTR (minutes)**
 
 Average repair duration calculated using corrective interventions only.
 
-**Spare Parts Cost**
+MTBF and equipment availability are not calculated because the dataset does not contain reliable equipment operating-time data.
 
-Sum of the spare parts cost values.
+## 7. Key Results and Findings
 
-MTBF and equipment availability are not calculated in this version because reliable equipment operating-time data is not available in the dataset.
+All findings below are calculated from the synthetic dataset.
 
-## 8. Key Results and Findings
-
-The following results were obtained from the synthetic dataset.
-
-### Overall maintenance performance
+### Overall Maintenance Performance
 
 | Indicator | Result |
 |---|---:|
@@ -216,7 +178,9 @@ The following results were obtained from the synthetic dataset.
 | Average downtime per intervention | 172.82 min | 15.46 min |
 | Average spare parts cost | 295.94 | 81.11 |
 
-Corrective interventions represent the largest share of maintenance activities and downtime in this synthetic dataset.
+*The monetary unit is not specified in the synthetic dataset.*
+
+Corrective interventions account for the largest share of maintenance activity and downtime.
 
 ### Downtime by Production Zone
 
@@ -228,7 +192,7 @@ Corrective interventions represent the largest share of maintenance activities a
 | Preparation | 12,085 | 18.4% |
 | Cutting | 11,408 | 17.3% |
 
-Assembly and Injection record the highest downtime, together accounting for approximately 45.7% of total downtime.
+Assembly and Injection together account for approximately 45.7% of total downtime.
 
 ### Pareto Analysis of Failure Causes
 
@@ -244,11 +208,9 @@ Assembly and Injection record the highest downtime, together accounting for appr
 
 The five largest failure categories account for approximately **83.96% of total downtime**.
 
-This Pareto analysis helps identify the categories that deserve priority during further investigation.
-
 ### Equipment Performance
 
-The equipment-level analysis identifies the equipment with the highest accumulated downtime.
+The three equipment units with the highest accumulated downtime are:
 
 | Equipment | Downtime (minutes) |
 |---|---:|
@@ -256,60 +218,50 @@ The equipment-level analysis identifies the equipment with the highest accumulat
 | EQ-005 | 5,902 |
 | EQ-013 | 5,608 |
 
-These three equipment units account for approximately 27.1% of total downtime in the synthetic dataset.
+Together, these three equipment units account for approximately **27.1% of total downtime**.
 
 ### Monthly Performance
 
-The monthly analysis highlights variations in maintenance activity over the dataset period.
-
 - January recorded the highest downtime: 10,068 minutes.
 - September recorded the lowest downtime: 4,650 minutes.
-- January also recorded the highest intervention volume: 72 interventions.
+- January recorded the highest intervention volume: 72 interventions.
 - September recorded the lowest intervention volume: 39 interventions.
 
-These variations demonstrate the importance of monitoring maintenance performance over time rather than relying only on cumulative indicators.
+The dataset extends through October 30, 2026. October should therefore be interpreted as a partial reporting period rather than a complete calendar month.
 
-## 9. Insights and Business Recommendations
+## 8. Insights and Business Recommendations
 
-The analytical findings can be translated into potential improvement actions when applied to validated operational data.
+The findings illustrate how maintenance analytics can support operational decision-making.
 
-**1. Prioritize zones with the highest downtime**
+**1. Prioritize high-downtime production zones**
 
-Assembly and Injection account for approximately 45.7% of downtime in the synthetic dataset.
+Assembly and Injection represent approximately 45.7% of downtime. An equipment-level review of these zones would be a logical starting point.
 
-An equipment-level investigation in these zones could help identify the main operational contributors.
+**2. Investigate the main failure contributors**
 
-**2. Investigate the leading failure causes**
-
-Mechanical failures represent the largest failure category, accounting for approximately 21.7% of downtime.
-
-A root-cause analysis and review of mechanical maintenance practices could be considered.
+Mechanical failures represent 21.7% of downtime. Root-cause analysis and a review of mechanical maintenance practices could help identify improvement opportunities.
 
 **3. Investigate operator-related factors**
 
-Operator error represents approximately 16.8% of downtime.
+Operator error accounts for 16.8% of downtime. Reviewing operating procedures, training needs and process-related factors could be relevant.
 
-Potential actions include reviewing operating procedures, identifying training needs, and examining process-related factors.
+**4. Monitor corrective maintenance**
 
-**4. Monitor the balance between corrective and preventive maintenance**
-
-Corrective interventions represent 73.8% of total interventions.
-
-Monitoring the corrective rate and corrective MTTR can help assess maintenance performance and identify opportunities to strengthen preventive maintenance.
+Corrective interventions represent 73.8% of all interventions. Monitoring corrective rate and MTTR can help evaluate maintenance performance.
 
 **5. Establish a KPI monitoring baseline**
 
-Total downtime, corrective rate, and corrective MTTR can serve as baseline indicators for periodic performance reviews.
+Total downtime, corrective rate and corrective MTTR can serve as baseline indicators for periodic performance reviews.
 
-These recommendations are analytical interpretations of synthetic results, not conclusions about COFAT or any other real industrial site.
+These are potential recommendations derived from synthetic results, not conclusions about COFAT or any real industrial site.
 
-## 10. Power BI Dashboard
+## 9. Power BI Dashboard
 
 The project includes an interactive Power BI report:
 
 `reports/Maintenance_Performance_Analytics.pbix`
 
-The dashboard provides an overview of maintenance performance through:
+The dashboard includes:
 
 - Total Equipment KPI.
 - Total Interventions KPI.
@@ -320,11 +272,9 @@ The dashboard provides an overview of maintenance performance through:
 - Production Zone slicer.
 - Intervention Type slicer.
 
-The report is designed to provide a clear overview of maintenance activities and support interactive exploration of the dataset.
+The report provides an interactive overview of maintenance performance and allows users to explore the dataset through filters.
 
-Additional analytical datasets are available for equipment performance, Pareto analysis, costs, and time-based monitoring.
-
-## 11. Repository Structure
+## 10. Repository Structure
 
 ```text
 maintenance-performance-analytics/
@@ -356,7 +306,7 @@ maintenance-performance-analytics/
 └── .gitignore
 ```
 
-## 12. How to Run the Project
+## 11. How to Run
 
 ### Prerequisites
 
@@ -377,58 +327,46 @@ cd maintenance-performance-analytics
 pip install -r requirements.txt
 ```
 
-### Generate the synthetic dataset
+### Generate the dataset
 
 ```bash
 python src/generate_data.py
 ```
 
-### Run data preparation
+### Prepare the data
 
 ```bash
 python src/analyze_data.py
 ```
 
-### Run business analysis
+### Run the business analysis
 
 ```bash
 python src/business_analysis.py
 ```
 
-The processed datasets are exported to:
+The processed datasets are exported to `data/processed/`.
 
-```text
-data/processed/
-```
+Open `reports/Maintenance_Performance_Analytics.pbix` with Power BI Desktop. If necessary, update the CSV source path to the local repository location.
 
-### Open the Power BI report
-
-Open:
-
-```text
-reports/Maintenance_Performance_Analytics.pbix
-```
-
-If necessary, update the source path in Power BI to point to the local repository's `data/processed/maintenance_clean.csv` file.
-
-## 13. Limitations and Future Improvements
+## 12. Limitations and Future Improvements
 
 ### Current limitations
 
-- The dataset is synthetic and does not represent real industrial performance.
+- The dataset is synthetic and does not represent actual industrial performance.
 - MTBF and availability require reliable equipment operating-time data.
-- Cost analysis depends on the availability and correct numerical interpretation of spare parts cost values.
-- The current dashboard focuses on descriptive and diagnostic analytics rather than predictive modelling.
+- The monetary unit for spare parts costs is not specified.
+- The project focuses on descriptive and diagnostic analytics rather than predictive modelling.
 
 ### Potential improvements
 
-- Add SQL queries for data extraction and analysis.
+- Add SQL-based data extraction and analysis.
 - Develop equipment criticality scoring.
 - Introduce maintenance performance targets.
-- Add more advanced time-based Power BI analysis.
+- Expand Power BI time-based analysis.
 - Explore predictive maintenance indicators when sufficient historical data is available.
 
-## 14. Author
+## 13. Author
 
 **Asma Ghanmi**
 
@@ -439,4 +377,4 @@ Computer Engineering Student | Data Analytics | Python | Power BI | Software Eng
 
 ---
 
-*This repository is an independent portfolio case study demonstrating data preparation, Python-based analysis, maintenance KPI development, and Business Intelligence reporting.*
+*An independent portfolio case study demonstrating data preparation, Python-based analysis, maintenance KPI development, and Business Intelligence reporting.*
